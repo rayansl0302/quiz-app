@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
+    gap: 25px;
   }
   
   .options-list {
@@ -15,7 +16,7 @@
       margin-bottom: 10px;
   
       button {
-        width: 100%;
+        width: 300px;
         padding: 10px;
         border: none;
         border-radius: 5px;

@@ -21,6 +21,12 @@ export class QuestionComponent implements OnInit {
 
   selectOption(optionId: number): void {
     this.selectedOption = optionId;
-    this.optionSelected.emit(this.selectedOption);
+    const selectedOption = this.question.options.find(option => option.id === optionId);
+
+    if (selectedOption) {
+      this.isCorrect = selectedOption.isCorrect;
+      this.correctAnswer = this.question.options.find(option => option.isCorrect)?.text || '';
+      this.optionSelected.emit(this.selectedOption);
+    }
   }
 }

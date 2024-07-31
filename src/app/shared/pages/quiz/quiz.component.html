@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-center align-items-center flex-column" *ngIf="question">
+<div class="d-flex justify-content-center align-items-center flex-column bg-light" *ngIf="question">
     <app-question [question]="question" (optionSelected)="onOptionSelected($event)"
         [showExplanation]="showExplanation"></app-question>
     <div class="actions">
