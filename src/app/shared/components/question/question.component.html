@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="question-container d-flex justify-content-center align-items-center">
+        <h2>{{ question.questionText }}</h2>
+        <ul class="options-list">
+            <li *ngFor="let option of question.options">
+                <button (click)="selectOption(option.id)" [disabled]="showExplanation">
+                    {{ option.text }}
+                </button>
+            </li>
+        </ul>
+        <div *ngIf="showExplanation" class="explanation">
+            <p *ngIf="isCorrect" class="correct">Resposta correta!</p>
+            <p *ngIf="!isCorrect" class="incorrect">
+                Resposta incorreta. A resposta correta é: {{ correctAnswer }}
+            </p>
+            <p>{{ question.explanation }}</p>
+        </div>
+    </div>
+</div>

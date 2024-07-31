@@ -1,0 +1,12 @@
+<div class="d-flex justify-content-center align-items-center flex-column" *ngIf="question">
+    <app-question [question]="question" (optionSelected)="onOptionSelected($event)"
+        [showExplanation]="showExplanation"></app-question>
+    <div class="actions">
+        <button class="btn btn-success" (click)="loadNextQuestion()" *ngIf="showExplanation">
+            Próxima Pergunta
+        </button>
+    </div>
+</div>
+<div *ngIf="!question">
+    <p>Não há mais perguntas disponíveis.</p>
+</div>

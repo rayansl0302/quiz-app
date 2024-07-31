@@ -1,0 +1,389 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "questionText": "O que é uma variável em Python?",
+        "options": [
+          { "id": 1, "text": "Uma função", "isCorrect": false },
+          { "id": 2, "text": "Um tipo de dado", "isCorrect": false },
+          { "id": 3, "text": "Um identificador para armazenar valores", "isCorrect": true },
+          { "id": 4, "text": "Uma constante", "isCorrect": false }
+        ],
+        "explanation": "Uma variável é um identificador que permite armazenar valores que podem ser alterados durante a execução do programa."
+      },
+      {
+        "id": 2,
+        "questionText": "Como você define uma função em Python?",
+        "options": [
+          { "id": 1, "text": "função nome():", "isCorrect": false },
+          { "id": 2, "text": "def nome_funcao():", "isCorrect": true },
+          { "id": 3, "text": "function nome_funcao():", "isCorrect": false },
+          { "id": 4, "text": "fn nome_funcao():", "isCorrect": false }
+        ],
+        "explanation": "Em Python, uma função é definida usando a palavra-chave \"def\" seguida pelo nome da função e parênteses."
+      },
+      {
+        "id": 3,
+        "questionText": "O que é uma lista em Python?",
+        "options": [
+          { "id": 1, "text": "Uma coleção ordenada e mutável de itens", "isCorrect": true },
+          { "id": 2, "text": "Uma coleção ordenada e imutável de itens", "isCorrect": false },
+          { "id": 3, "text": "Uma coleção não ordenada e mutável de itens", "isCorrect": false },
+          { "id": 4, "text": "Uma coleção não ordenada e imutável de itens", "isCorrect": false }
+        ],
+        "explanation": "Uma lista em Python é uma coleção ordenada e mutável de itens que pode conter elementos de diferentes tipos."
+      },
+      {
+        "id": 4,
+        "questionText": "Qual é a saída de print(2 ** 3) em Python?",
+        "options": [
+          { "id": 1, "text": "5", "isCorrect": false },
+          { "id": 2, "text": "6", "isCorrect": false },
+          { "id": 3, "text": "8", "isCorrect": true },
+          { "id": 4, "text": "9", "isCorrect": false }
+        ],
+        "explanation": "O operador \"**\" é usado para exponenciação em Python. Portanto, 2 ** 3 significa 2 elevado à potência de 3, que é igual a 8."
+      },
+      {
+        "id": 5,
+        "questionText": "Qual biblioteca é comumente usada para web scraping em Python?",
+        "options": [
+          { "id": 1, "text": "numpy", "isCorrect": false },
+          { "id": 2, "text": "pandas", "isCorrect": false },
+          { "id": 3, "text": "beautifulsoup4", "isCorrect": true },
+          { "id": 4, "text": "matplotlib", "isCorrect": false }
+        ],
+        "explanation": "A biblioteca \"beautifulsoup4\" é comumente usada para web scraping em Python, pois permite a extração de dados de arquivos HTML e XML."
+      },
+      {
+        "id": 6,
+        "questionText": "Como você inicializa uma instância do navegador com Selenium em Python?",
+        "options": [
+          { "id": 1, "text": "browser = selenium.webdriver()", "isCorrect": false },
+          { "id": 2, "text": "driver = webdriver.Chrome()", "isCorrect": true },
+          { "id": 3, "text": "webdriver = ChromeDriver()", "isCorrect": false },
+          { "id": 4, "text": "driver = Selenium.Chrome()", "isCorrect": false }
+        ],
+        "explanation": "Para inicializar uma instância do navegador com Selenium em Python, você usa \"driver = webdriver.Chrome()\"."
+      },
+      {
+        "id": 7,
+        "questionText": "Como você pode encontrar um elemento por ID usando Selenium em Python?",
+        "options": [
+          { "id": 1, "text": "element = driver.find_element_by_id(\"id\")", "isCorrect": true },
+          { "id": 2, "text": "element = driver.find_element_by_class(\"id\")", "isCorrect": false },
+          { "id": 3, "text": "element = driver.get_element_by_id(\"id\")", "isCorrect": false },
+          { "id": 4, "text": "element = driver.find_element_by_tag(\"id\")", "isCorrect": false }
+        ],
+        "explanation": "Para encontrar um elemento por ID usando Selenium em Python, você usa \"element = driver.find_element_by_id(\"id\")\"."
+      },
+      {
+        "id": 8,
+        "questionText": "O que faz o método find_all() do BeautifulSoup?",
+        "options": [
+          { "id": 1, "text": "Retorna o primeiro elemento que corresponde aos critérios de pesquisa", "isCorrect": false },
+          { "id": 2, "text": "Retorna todos os elementos que correspondem aos critérios de pesquisa", "isCorrect": true },
+          { "id": 3, "text": "Retorna o número de elementos que correspondem aos critérios de pesquisa", "isCorrect": false },
+          { "id": 4, "text": "Remove todos os elementos que correspondem aos critérios de pesquisa", "isCorrect": false }
+        ],
+        "explanation": "O método \"find_all()\" do BeautifulSoup retorna todos os elementos que correspondem aos critérios de pesquisa fornecidos."
+      },
+      {
+        "id": 9,
+        "questionText": "O que é uma \"Exception\" em Python?",
+        "options": [
+          { "id": 1, "text": "Um erro detectado durante a execução do programa", "isCorrect": true },
+          { "id": 2, "text": "Uma função que retorna um valor de erro", "isCorrect": false },
+          { "id": 3, "text": "Um tipo de variável especial", "isCorrect": false },
+          { "id": 4, "text": "Uma biblioteca para manipulação de erros", "isCorrect": false }
+        ],
+        "explanation": "Uma \"Exception\" em Python é um erro detectado durante a execução do programa, que pode ser tratado usando blocos try-except."
+      },
+      {
+        "id": 10,
+        "questionText": "Como você pode manipular exceções em Python?",
+        "options": [
+          { "id": 1, "text": "try-except", "isCorrect": true },
+          { "id": 2, "text": "try-catch", "isCorrect": false },
+          { "id": 3, "text": "do-except", "isCorrect": false },
+          { "id": 4, "text": "try-finally", "isCorrect": false }
+        ],
+        "explanation": "Em Python, você pode manipular exceções usando blocos \"try-except\"."
+      },
+      {
+        "id": 11,
+        "questionText": "Qual é a saída de print(list(range(5))) em Python?",
+        "options": [
+          { "id": 1, "text": "[1, 2, 3, 4, 5]", "isCorrect": false },
+          { "id": 2, "text": "[0, 1, 2, 3, 4]", "isCorrect": true },
+          { "id": 3, "text": "[0, 1, 2, 3, 4, 5]", "isCorrect": false },
+          { "id": 4, "text": "[1, 2, 3, 4]", "isCorrect": false }
+        ],
+        "explanation": "A função \"range(5)\" gera uma sequência de números de 0 a 4. Convertendo-a para uma lista, obtemos [0, 1, 2, 3, 4]."
+      },
+      {
+        "id": 12,
+        "questionText": "Como você pode adicionar um item ao final de uma lista em Python?",
+        "options": [
+          { "id": 1, "text": "list.add(item)", "isCorrect": false },
+          { "id": 2, "text": "list.append(item)", "isCorrect": true },
+          { "id": 3, "text": "list.insert(item)", "isCorrect": false },
+          { "id": 4, "text": "list.extend(item)", "isCorrect": false }
+        ],
+        "explanation": "Para adicionar um item ao final de uma lista em Python, você usa o método \"append(item)\"."
+      },
+      {
+        "id": 13,
+        "questionText": "Qual é a sintaxe para um loop for em Python?",
+        "options": [
+          { "id": 1, "text": "for item in list{}", "isCorrect": false },
+          { "id": 2, "text": "for item : list{}", "isCorrect": false },
+          { "id": 3, "text": "for item in list:", "isCorrect": true },
+          { "id": 4, "text": "foreach item in list{}", "isCorrect": false }
+        ],
+        "explanation": "A sintaxe correta para um loop for em Python é \"for item in list:\"."
+      },
+      {
+        "id": 14,
+        "questionText": "Como você pode abrir uma página da web com o Selenium em Python?",
+        "options": [
+          { "id": 1, "text": "driver.open('url')", "isCorrect": false },
+          { "id": 2, "text": "driver.get('url')", "isCorrect": true },
+          { "id": 3, "text": "driver.navigate_to('url')", "isCorrect": false },
+          { "id": 4, "text": "driver.load('url')", "isCorrect": false }
+        ],
+        "explanation": "Para abrir uma página da web com o Selenium em Python, você usa \"driver.get('url')\"."
+      },
+      {
+        "id": 15,
+        "questionText": "Qual método do Selenium é usado para clicar em um botão?",
+        "options": [
+          { "id": 1, "text": "element.click()", "isCorrect": true },
+          { "id": 2, "text": "element.submit()", "isCorrect": false },
+          { "id": 3, "text": "element.press()", "isCorrect": false },
+          { "id": 4, "text": "element.select()", "isCorrect": false }
+        ],
+        "explanation": "O método usado para clicar em um botão no Selenium é \"element.click()\"."
+      },
+      {
+        "id": 16,
+        "questionText": "Qual é o propósito do método 'find_element_by_name' no Selenium?",
+        "options": [
+          { "id": 1, "text": "Encontrar um elemento pelo nome da classe", "isCorrect": false },
+          { "id": 2, "text": "Encontrar um elemento pelo nome do id", "isCorrect": false },
+          { "id": 3, "text": "Encontrar um elemento pelo atributo name", "isCorrect": true },
+          { "id": 4, "text": "Encontrar um elemento pelo texto do elemento", "isCorrect": false }
+        ],
+        "explanation": "O método 'find_element_by_name' no Selenium é usado para encontrar um elemento pelo valor do atributo 'name'."
+      },
+      {
+        "id": 17,
+        "questionText": "Como você pode capturar uma exceção específica em Python?",
+        "options": [
+          { "id": 1, "text": "except Exception as e:", "isCorrect": false },
+          { "id": 2, "text": "catch Exception as e:", "isCorrect": false },
+          { "id": 3, "text": "except e:", "isCorrect": false },
+          { "id": 4, "text": "except SpecificException as e:", "isCorrect": true }
+        ],
+        "explanation": "Para capturar uma exceção específica em Python, você usa a sintaxe \"except SpecificException as e:\"."
+      },
+      {
+        "id": 18,
+        "questionText": "Qual é a função do módulo 'requests' em Python?",
+        "options": [
+          { "id": 1, "text": "Manipular dados HTML", "isCorrect": false },
+          { "id": 2, "text": "Enviar requisições HTTP", "isCorrect": true },
+          { "id": 3, "text": "Executar scripts JavaScript", "isCorrect": false },
+          { "id": 4, "text": "Manipular bancos de dados", "isCorrect": false }
+        ],
+        "explanation": "O módulo 'requests' em Python é usado para enviar requisições HTTP, facilitando a interação com APIs e outros serviços web."
+      },
+      {
+        "id": 19,
+        "questionText": "Como você pode obter o texto de um elemento com o Selenium em Python?",
+        "options": [
+          { "id": 1, "text": "element.text()", "isCorrect": false },
+          { "id": 2, "text": "element.get_text()", "isCorrect": false },
+          { "id": 3, "text": "element.get_attribute('text')", "isCorrect": false },
+          { "id": 4, "text": "element.text", "isCorrect": true }
+        ],
+        "explanation": "Para obter o texto de um elemento com o Selenium em Python, você usa \"element.text\"."
+      },
+      {
+        "id": 20,
+        "questionText": "Qual biblioteca é popular para manipular dados em Python?",
+        "options": [
+          { "id": 1, "text": "beautifulsoup4", "isCorrect": false },
+          { "id": 2, "text": "requests", "isCorrect": false },
+          { "id": 3, "text": "pandas", "isCorrect": true },
+          { "id": 4, "text": "selenium", "isCorrect": false }
+        ],
+        "explanation": "A biblioteca 'pandas' é popular para manipulação de dados em Python, oferecendo estruturas de dados e funções para análise de dados."
+      },
+      {
+        "id": 21,
+        "questionText": "Qual é a diferença entre '==' e 'is' em Python?",
+        "options": [
+          { "id": 1, "text": "'==' compara valores, enquanto 'is' compara identidade de objetos", "isCorrect": true },
+          { "id": 2, "text": "'==' compara identidade de objetos, enquanto 'is' compara valores", "isCorrect": false },
+          { "id": 3, "text": "Não há diferença", "isCorrect": false },
+          { "id": 4, "text": "'is' é usado para comparação numérica e '==' para comparação textual", "isCorrect": false }
+        ],
+        "explanation": "'==' compara valores para verificar se são iguais, enquanto 'is' compara a identidade dos objetos para verificar se são o mesmo objeto na memória."
+      },
+      {
+        "id": 22,
+        "questionText": "Como você pode verificar se uma variável é do tipo string em Python?",
+        "options": [
+          { "id": 1, "text": "isinstance(var, str)", "isCorrect": true },
+          { "id": 2, "text": "var.is_string()", "isCorrect": false },
+          { "id": 3, "text": "type(var) == 'string'", "isCorrect": false },
+          { "id": 4, "text": "var.type == 'str'", "isCorrect": false }
+        ],
+        "explanation": "Para verificar se uma variável é do tipo string em Python, você usa a função 'isinstance(var, str)'."
+      },
+      {
+        "id": 23,
+        "questionText": "Qual método é usado para remover espaços em branco do início e fim de uma string em Python?",
+        "options": [
+          { "id": 1, "text": "strip_whitespace()", "isCorrect": false },
+          { "id": 2, "text": "trim()", "isCorrect": false },
+          { "id": 3, "text": "strip()", "isCorrect": true },
+          { "id": 4, "text": "remove_spaces()", "isCorrect": false }
+        ],
+        "explanation": "O método usado para remover espaços em branco do início e fim de uma string em Python é 'strip()'."
+      },
+      {
+        "id": 24,
+        "questionText": "Como você pode executar um comando de shell usando o módulo 'subprocess' em Python?",
+        "options": [
+          { "id": 1, "text": "subprocess.run('comando')", "isCorrect": true },
+          { "id": 2, "text": "subprocess.execute('comando')", "isCorrect": false },
+          { "id": 3, "text": "subprocess.call('comando')", "isCorrect": false },
+          { "id": 4, "text": "subprocess.command('comando')", "isCorrect": false }
+        ],
+        "explanation": "Para executar um comando de shell usando o módulo 'subprocess' em Python, você usa 'subprocess.run('comando')'."
+      },
+      {
+        "id": 25,
+        "questionText": "Como você pode remover o último item de uma lista em Python?",
+        "options": [
+          { "id": 1, "text": "list.remove_last()", "isCorrect": false },
+          { "id": 2, "text": "list.pop()", "isCorrect": true },
+          { "id": 3, "text": "list.delete()", "isCorrect": false },
+          { "id": 4, "text": "list.pop_last()", "isCorrect": false }
+        ],
+        "explanation": "Para remover o último item de uma lista em Python, você usa o método \"pop()\"."
+      },
+      {
+        "id": 26,
+        "questionText": "Como você pode criar um dicionário em Python?",
+        "options": [
+          { "id": 1, "text": "dict = {}", "isCorrect": true },
+          { "id": 2, "text": "dict = []", "isCorrect": false },
+          { "id": 3, "text": "dict = dict()", "isCorrect": false },
+          { "id": 4, "text": "dict = set()", "isCorrect": false }
+        ],
+        "explanation": "Para criar um dicionário em Python, você usa a sintaxe \"dict = {}\"."
+      },
+      {
+        "id": 27,
+        "questionText": "Qual é a função do método 'find_element_by_name' no Selenium?",
+        "options": [
+          { "id": 1, "text": "Encontrar um elemento pelo valor do atributo 'name'", "isCorrect": true },
+          { "id": 2, "text": "Encontrar um elemento pelo nome da tag", "isCorrect": false },
+          { "id": 3, "text": "Encontrar um elemento pelo texto do elemento", "isCorrect": false },
+          { "id": 4, "text": "Encontrar um elemento pelo ID", "isCorrect": false }
+        ],
+        "explanation": "O método 'find_element_by_name' no Selenium é usado para encontrar um elemento pelo valor do atributo 'name'."
+      },
+      {
+        "id": 28,
+        "questionText": "Como você pode obter o valor de um atributo de um elemento usando Selenium em Python?",
+        "options": [
+          { "id": 1, "text": "element.get('attribute')", "isCorrect": false },
+          { "id": 2, "text": "element.get_attribute('attribute')", "isCorrect": true },
+          { "id": 3, "text": "element.attribute('attribute')", "isCorrect": false },
+          { "id": 4, "text": "element.attribute_value('attribute')", "isCorrect": false }
+        ],
+        "explanation": "Para obter o valor de um atributo de um elemento usando Selenium em Python, você usa \"element.get_attribute('attribute')\"."
+      },
+      {
+        "id": 29,
+        "questionText": "Qual biblioteca é comumente usada para requisições HTTP em Python?",
+        "options": [
+          { "id": 1, "text": "beautifulsoup4", "isCorrect": false },
+          { "id": 2, "text": "requests", "isCorrect": true },
+          { "id": 3, "text": "lxml", "isCorrect": false },
+          { "id": 4, "text": "selenium", "isCorrect": false }
+        ],
+        "explanation": "A biblioteca 'requests' é comumente usada para fazer requisições HTTP em Python."
+      },
+      {
+        "id": 30,
+        "questionText": "Como você pode acessar o primeiro elemento de uma lista em Python?",
+        "options": [
+          { "id": 1, "text": "list[0]", "isCorrect": true },
+          { "id": 2, "text": "list.first()", "isCorrect": false },
+          { "id": 3, "text": "list.get(0)", "isCorrect": false },
+          { "id": 4, "text": "list[1]", "isCorrect": false }
+        ],
+        "explanation": "Para acessar o primeiro elemento de uma lista em Python, você usa o índice \"list[0]\"."
+      },
+      {
+        "id": 31,
+        "questionText": "Como você pode realizar uma requisição GET usando o módulo 'requests' em Python?",
+        "options": [
+          { "id": 1, "text": "requests.get('url')", "isCorrect": true },
+          { "id": 2, "text": "requests.fetch('url')", "isCorrect": false },
+          { "id": 3, "text": "requests.request('url')", "isCorrect": false },
+          { "id": 4, "text": "requests.post('url')", "isCorrect": false }
+        ],
+        "explanation": "Para realizar uma requisição GET usando o módulo 'requests' em Python, você usa \"requests.get('url')\"."
+      },
+      {
+        "id": 32,
+        "questionText": "Qual é o propósito da função 'len()' em Python?",
+        "options": [
+          { "id": 1, "text": "Retornar o tamanho de um objeto", "isCorrect": true },
+          { "id": 2, "text": "Retornar o tipo de um objeto", "isCorrect": false },
+          { "id": 3, "text": "Retornar o valor de um objeto", "isCorrect": false },
+          { "id": 4, "text": "Verificar se um objeto é nulo", "isCorrect": false }
+        ],
+        "explanation": "A função 'len()' em Python retorna o tamanho (ou número de itens) de um objeto, como uma lista ou string."
+      },
+      {
+        "id": 33,
+        "questionText": "Qual é a função do módulo 'lxml' em Python?",
+        "options": [
+          { "id": 1, "text": "Manipular arquivos CSV", "isCorrect": false },
+          { "id": 2, "text": "Processar e manipular XML e HTML", "isCorrect": true },
+          { "id": 3, "text": "Executar cálculos matemáticos", "isCorrect": false },
+          { "id": 4, "text": "Criar gráficos e visualizações", "isCorrect": false }
+        ],
+        "explanation": "O módulo 'lxml' em Python é usado para processar e manipular arquivos XML e HTML."
+      },
+      {
+        "id": 34,
+        "questionText": "Qual é a saída de print('hello'.upper()) em Python?",
+        "options": [
+          { "id": 1, "text": "HELLO", "isCorrect": true },
+          { "id": 2, "text": "hello", "isCorrect": false },
+          { "id": 3, "text": "Hello", "isCorrect": false },
+          { "id": 4, "text": "hELLO", "isCorrect": false }
+        ],
+        "explanation": "O método 'upper()' converte todos os caracteres de uma string para maiúsculas. Portanto, \"print('hello'.upper())\" exibe 'HELLO'."
+      },
+      {
+        "id": 35,
+        "questionText": "Como você pode criar uma instância do driver do Firefox com Selenium em Python?",
+        "options": [
+          { "id": 1, "text": "driver = webdriver.Firefox()", "isCorrect": true },
+          { "id": 2, "text": "driver = FirefoxDriver()", "isCorrect": false },
+          { "id": 3, "text": "driver = selenium.Firefox()", "isCorrect": false },
+          { "id": 4, "text": "driver = browser.Firefox()", "isCorrect": false }
+        ],
+        "explanation": "Para criar uma instância do driver do Firefox com Selenium em Python, você usa \"driver = webdriver.Firefox()\"."
+      }
+    ]
+}
