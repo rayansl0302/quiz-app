@@ -14,6 +14,9 @@ export class QuestionComponent implements OnInit {
   selectedOption: number | null = null;
   isCorrect: boolean = false;
   correctAnswer: string = '';
+  // Adicionando contadores
+  @Input() correctCount: number = 0;
+  @Input() incorrectCount: number = 0;
 
   constructor() { }
 
@@ -26,6 +29,13 @@ export class QuestionComponent implements OnInit {
     if (selectedOption) {
       this.isCorrect = selectedOption.isCorrect;
       this.correctAnswer = this.question.options.find(option => option.isCorrect)?.text || '';
+
+      if (this.isCorrect) {
+        this.correctCount += 1;
+      } else {
+        this.incorrectCount += 1;
+      }
+
       this.optionSelected.emit(this.selectedOption);
     }
   }
