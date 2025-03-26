@@ -4,15 +4,17 @@ import { map, Observable } from 'rxjs';
 import { Question } from 'src/app/shared/components/question/model/question.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class QuizService {
-  private apiUrl = 'https://api.npoint.io/234c2d657b65195974d7';
+  // private apiUrl = 'https://api.npoint.io/234c2d657b65195974d7';
+  private apiUrl = 'https://api.npoint.io/7a9afe6922fb6cf0cc13';
+
   private questions: Question[] = [];
   private currentQuestionIndex: number = -1;
   private shuffledQuestions: Question[] = [];
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   fetchQuestions(): Observable<Question[]> {
     return this.http.get<{ questions: Question[] }>(this.apiUrl).pipe(
@@ -26,7 +28,9 @@ export class QuizService {
   }
 
   private shuffleQuestions(): void {
-    this.shuffledQuestions = [...this.questions].sort(() => Math.random() - 0.5);
+    this.shuffledQuestions = [...this.questions].sort(
+      () => Math.random() - 0.5
+    );
     console.log('Shuffled Questions:', this.shuffledQuestions); // Log das perguntas embaralhadas
   }
 
